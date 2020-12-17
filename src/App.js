@@ -11,6 +11,11 @@ function App() {
     <Root>
       {process.env.NODE_ENV === "production" && (
         <Head>
+          <link
+            rel="shortcut icon"
+            type="image/png"
+            href="/icons/manifest-icon-192.png"
+          />
           <link rel="apple-touch-icon" href="/icons/apple-icon-180.png" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link
