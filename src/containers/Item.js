@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouteData } from "react-static";
-import { Heading, Box, Anchor, Text } from "grommet";
+import { Heading, Box, Text } from "grommet";
 
 export default function Item() {
   const { item } = useRouteData();
@@ -10,7 +10,6 @@ export default function Item() {
       <Box align="start" justify="center">
         <Text>{item.body}</Text>
       </Box>
-      <Anchor href="/news" label="< Back" />
     </Box>
   );
 }
