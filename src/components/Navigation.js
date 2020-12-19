@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Grid } from "grommet";
-import { Home, Menu, BarChart } from "grommet-icons";
+import { Home, Menu, Catalog } from "grommet-icons";
 
 import { useNavigate, useLocation } from "components/Router";
 
@@ -41,15 +41,15 @@ const Navigation = () => {
           align="center"
           justify="center"
           background={{
-            color: getNavColor(location, ["/progress"]),
+            color: getNavColor(location, ["/news"]),
           }}
           flex="grow"
-          onClick={() => navigate("/progress")}
+          onClick={() => navigate("/news")}
           pad="medium"
           overflow="hidden"
           gridArea="second"
         >
-          <BarChart />
+          <Catalog />
         </Box>
         <Box
           align="center"
