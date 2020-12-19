@@ -3,8 +3,8 @@ import { Box, Heading, Paragraph } from "grommet";
 
 export default () => (
   <Box align="center" justify="center" fill pad="medium">
-    <Heading>Home</Heading>
-    <Paragraph fill>
+    <Heading data-test="header">Home</Heading>
+    <Paragraph fill data-test="paragraph">
       Jean shorts kombucha vice schlitz, ugh raw denim godard YOLO locavore
       gluten-free mumblecore enamel pin DIY retro. Health goth shaman put a bird
       on it flexitarian cloud bread bitters keffiyeh vinyl offal vegan celiac
@@ -12,7 +12,7 @@ export default () => (
       Activated charcoal green juice coloring book slow-carb chambray unicorn
       gentrify selvage.
     </Paragraph>
-    <Paragraph fill>
+    <Paragraph fill data-test="paragraph">
       Selvage pitchfork bushwick seitan chia. Hot chicken try-hard godard next
       level tacos. Try-hard actually green juice pop-up, salvia pug chillwave
       gastropub tofu flexitarian pok pok normcore sartorial squid. Actually

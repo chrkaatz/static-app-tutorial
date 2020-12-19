@@ -9,6 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn && yarn build
+      - uses: cypress-io/github-action@v2
+        with:
+          install-command: yarn --frozen-lockfile --silent
+          build: yarn build
+          start: yarn serve
+          wait-on: 'http://localhost:3000'
+          browser: chrome
+          headless: true
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
