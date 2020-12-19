@@ -4,8 +4,8 @@ describe("Basic", () => {
     cy.get('[data-test="header"]').should("be.visible");
     cy.get('[data-test="paragraph"]').should("have.length", 2);
   });
-  it("not found", () => {
-    cy.visit("/something-weird");
+  it("not found page", () => {
+    cy.visit("/weird", { failOnStatusCode: false });
     cy.get('[data-test="header"]').contains("404");
   });
 });
