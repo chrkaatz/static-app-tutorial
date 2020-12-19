@@ -9,10 +9,10 @@
     "theme_color": "#000000",
     "shortcuts": [
       {
-        "name": "Check progress",
-        "short_name": "Progress",
-        "description": "See the progress",
-        "url": "/progress",
+        "name": "Read News",
+        "short_name": "News",
+        "description": "See the latest news",
+        "url": "/news",
         "icons": [{ "src": "/icons/manifest-icon-192.png", "sizes": "192x192" }]
       }
     ],
