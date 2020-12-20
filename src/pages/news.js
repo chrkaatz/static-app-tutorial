@@ -6,10 +6,14 @@ export default function News() {
   const { newsItems } = useRouteData();
   return (
     <Box align="center" justify="center" fill pad="medium">
-      <Heading>News</Heading>
+      <Heading data-test="header">News</Heading>
       <Box align="start" justify="center">
         {newsItems.map((item) => (
-          <Anchor key={item.id} href={`/news/${item.id}/`}>
+          <Anchor
+            data-test="news-link"
+            key={item.id}
+            href={`/news/${item.id}/`}
+          >
             <Box align="start" justify="center" border={{ side: "bottom" }}>
               <Heading level="3" margin="small">
                 {item.title}

@@ -4,7 +4,7 @@ import { Mail } from "grommet-icons";
 
 export default () => (
   <Box align="center" justify="center" fill pad="medium">
-    <Heading>About</Heading>
+    <Heading data-test="header">About</Heading>
     <Heading level="3">ACME Corp</Heading>
     <Box align="center" justify="start" direction="row" gap="small">
       <Mail />
