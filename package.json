@@ -38,7 +38,7 @@
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "serve": "11.3.2",
-    "start-server-and-test": "1.11.6",
+    "start-server-and-test": "1.11.7",
     "workbox-cli": "6.0.2"
   }
 }
