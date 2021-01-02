@@ -1,4 +1,4 @@
-describe("Basic", () => {
+describe("News", () => {
   it("News Overview", () => {
     cy.visit("/news");
     cy.get('[data-test="header"]').should("be.visible").contains("News");
