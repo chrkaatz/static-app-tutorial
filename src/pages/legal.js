@@ -12,7 +12,7 @@ export default () => (
         overflow="auto"
         flex="grow"
       >
-        <Heading>Legal</Heading>
+        <Heading data-test="header">Legal</Heading>
         <Paragraph fill>
           Portland disrupt tumeric thundercats fingerstache meditation. Meggings
           austin fashion axe, subway tile hot chicken gentrify enamel pin

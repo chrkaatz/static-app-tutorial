@@ -7,7 +7,7 @@ export default function More() {
   const navigate = useNavigate();
   return (
     <Box align="center" justify="center" fill pad="medium">
-      <Heading>More</Heading>
+      <Heading data-test="header">More</Heading>
       <Box
         justify="center"
         direction="row"
@@ -25,12 +25,14 @@ export default function More() {
           <Button
             secondary
             size="medium"
+            data-test="more-nav-about"
             onClick={() => navigate("/about")}
             label="About"
           />
           <Button
             secondary
             size="medium"
+            data-test="more-nav-legal"
             onClick={() => navigate("/legal")}
             label="Legal"
           />

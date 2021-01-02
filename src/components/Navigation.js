@@ -29,6 +29,7 @@ const Navigation = () => {
           background={{
             color: getNavColor(location, ["/"]),
           }}
+          data-test="nav-home"
           onClick={() => navigate("/")}
           flex
           pad="medium"
@@ -43,6 +44,7 @@ const Navigation = () => {
           background={{
             color: getNavColor(location, ["/news"]),
           }}
+          data-test="nav-news"
           flex="grow"
           onClick={() => navigate("/news")}
           pad="medium"
@@ -57,6 +59,7 @@ const Navigation = () => {
           background={{
             color: getNavColor(location, ["/more", "/legal", "/about"]),
           }}
+          data-test="nav-more"
           pad="medium"
           gridArea="third"
           onClick={() => navigate("/more")}

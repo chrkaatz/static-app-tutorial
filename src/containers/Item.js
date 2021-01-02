@@ -6,9 +6,9 @@ export default function Item() {
   const { item } = useRouteData();
   return (
     <Box align="center" justify="center" fill pad="medium">
-      <Heading>{item.title}</Heading>
+      <Heading data-test="header">{item.title}</Heading>
       <Box align="start" justify="center">
-        <Text>{item.body}</Text>
+        <Text data-test="news-body">{item.body}</Text>
       </Box>
     </Box>
   );

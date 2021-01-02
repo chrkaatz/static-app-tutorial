@@ -105,3 +105,6 @@ dist
 
 /artifacts
 /tmp
+
+/cypress/videos
+/cypress/screenshots
