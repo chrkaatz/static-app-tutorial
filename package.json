@@ -21,7 +21,7 @@
     "react-static": "7.4.2",
     "react-static-plugin-reach-router": "7.4.2",
     "react-static-plugin-sitemap": "7.4.2",
-    "react-static-plugin-source-filesystem": "7.4.2",
+    "react-static-plugin-source-filesystem": "7.5.0",
     "styled-components": "5.2.1",
     "yarn": "1.22.10"
   },
