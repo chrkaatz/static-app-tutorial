@@ -8712,10 +8712,10 @@ react-static-plugin-source-filesystem@7.5.1:
     chokidar "^3.0.2"
     glob "^7.1.4"
 
-react-static@7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/react-static/-/react-static-7.5.0.tgz#3aa6d0d0b52321bdd80afcf7207b3da881fff189"
-  integrity sha512-K2YPRH8/azvNYZTOZSQ9407I7h1v8DjaRrz3Bfk46gb0Uue/a/0mmnv1cwr6eJaivk5qurSUQxlnxMi3T3KTLA==
+react-static@7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/react-static/-/react-static-7.5.1.tgz#8bf5324d6b32a3eaf5aef17fe4919ad6ca667904"
+  integrity sha512-QMSmxowUEGDJ3FFDZGmyfn7WTR2IE9dOk7d6fhaxTieDrClU5dM8iFv/CLCRrFpn9vNt3x+LaeRV0KyldL2UIw==
   dependencies:
     "@babel/cli" "^7.5.5"
     "@babel/core" "^7.5.5"
