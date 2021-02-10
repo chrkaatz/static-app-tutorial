@@ -8704,10 +8704,10 @@ react-static-plugin-sitemap@7.5.0:
     chalk "^2.4.2"
     fs-extra "^8.1.0"
 
-react-static-plugin-source-filesystem@7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-source-filesystem/-/react-static-plugin-source-filesystem-7.5.0.tgz#1f682dfe637a7c8260f5252ef2586000350e362b"
-  integrity sha512-K4MecmJwAqxHD8U/9+w8NGoPsabX5KbEjkSr2SP7B/bUbUIRLszV3u9NfH/4odmtlvEJyx1EKnwcLtlM83QcPQ==
+react-static-plugin-source-filesystem@7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-source-filesystem/-/react-static-plugin-source-filesystem-7.5.1.tgz#e16143b6266a821efcb94321c1008685b5a601e2"
+  integrity sha512-3oOA0YqIK9LMesa/i/6+K3I/Fq9UjeY5UKihLuOlCveur9m6Lo6AWHD166hv/tifUley1Btd7ShKXEkBztPbxw==
   dependencies:
     chokidar "^3.0.2"
     glob "^7.1.4"
