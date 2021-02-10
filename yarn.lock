@@ -8696,10 +8696,10 @@ react-static-plugin-reach-router@7.5.1:
   resolved "https://registry.yarnpkg.com/react-static-plugin-reach-router/-/react-static-plugin-reach-router-7.5.1.tgz#133980ae89aad186fa72a3d27ee392849fa5a9d1"
   integrity sha512-kNFzCgHkMgZxi5x63yipXgRh6Nae5XnyWreUcqDLXZftWUTeGs80djC7NsC32igR6N1Zdwb5bHXU18tyyLxUDw==
 
-react-static-plugin-sitemap@7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-sitemap/-/react-static-plugin-sitemap-7.5.0.tgz#7fe2b6327b3bc787c576f66d1df0a416bb2fecd0"
-  integrity sha512-k93RRslHk5jGL0/3rU3SNm+xUP2N6CQ1ZER7A753+jA4no/PVu08aHzgM79yeUfyRbQGGEhaNZ2gVafuQIv/+A==
+react-static-plugin-sitemap@7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-sitemap/-/react-static-plugin-sitemap-7.5.1.tgz#0122790c45d6df47565588534d804ea8ad5eb1ad"
+  integrity sha512-v01mzYt0rK3DpO7cGi3PPob4W0kDyABIYAGBoyOtdNj8a1jIRxBKA7UB/s7wjMqD7hZs4FRC9X+7reD2a3xSWQ==
   dependencies:
     chalk "^2.4.2"
     fs-extra "^8.1.0"
