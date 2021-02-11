@@ -16,6 +16,7 @@ jobs:
           wait-on: 'http://localhost:3000'
           browser: chrome
           headless: true
+        timeout-minutes: 15
       - run: yarn && yarn build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
