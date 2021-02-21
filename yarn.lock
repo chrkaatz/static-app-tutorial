@@ -8718,10 +8718,10 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
   integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
-react-static-plugin-reach-router@7.5.1:
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-reach-router/-/react-static-plugin-reach-router-7.5.1.tgz#133980ae89aad186fa72a3d27ee392849fa5a9d1"
-  integrity sha512-kNFzCgHkMgZxi5x63yipXgRh6Nae5XnyWreUcqDLXZftWUTeGs80djC7NsC32igR6N1Zdwb5bHXU18tyyLxUDw==
+react-static-plugin-reach-router@7.5.3:
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-reach-router/-/react-static-plugin-reach-router-7.5.3.tgz#419b433317046efd62128a40350b8488e75941fe"
+  integrity sha512-P/APVyLkfE20H6EwT5BQb7UJkUw7+e3uXsQNOu68eljHrv2QdASqyFL1zlvuu6hXCh4BwkChFsk3Zqe/U0k3ww==
 
 react-static-plugin-sitemap@7.5.3:
   version "7.5.3"
