@@ -19,7 +19,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-static": "7.5.3",
-    "react-static-plugin-reach-router": "7.5.3",
+    "react-static-plugin-reach-router": "7.6.2",
     "react-static-plugin-sitemap": "7.5.3",
     "react-static-plugin-source-filesystem": "7.5.3",
     "styled-components": "5.3.0",
